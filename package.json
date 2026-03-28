@@ -1,0 +1,12 @@
+{
+  "name": "loja-eletronicos",
+  "version": "1.0.0",
+  "description": "Loja de Eletrônicos Online",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
