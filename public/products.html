@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - TechStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">⚡ TechStore</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="cart.html">Carrinho</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="cart.html">🛒 <span id="cartCount">0</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products-header">
+            <h1>Nossos Produtos</h1>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="todos">Todas as categorias</option>
+                    <option value="smartphones">Smartphones</option>
+                    <option value="notebooks">Notebooks</option>
+                    <option value="acessorios">Acessórios</option>
+                    <option value="wearables">Wearables</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="cameras">Câmeras</option>
+                </select>
+                <input type="text" id="searchInput" placeholder="Buscar produtos...">
+            </div>
+        </div>
+
+        <div id="productsGrid" class="products-grid">
+            <!-- Produtos serão carregados aqui -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Sua loja de eletrônicos confiável desde 2024</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: contato@techstore.com</p>
+                    <p>Telefone: (11) 99999-9999</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
