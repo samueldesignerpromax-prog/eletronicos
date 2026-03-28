@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone Galaxy S23",
+      "price": 2999.99,
+      "category": "smartphones",
+      "description": "Smartphone com câmera de 50MP, tela AMOLED de 6.1 polegadas",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400",
+      "stock": 10,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14 Pro",
+      "price": 5499.99,
+      "category": "smartphones",
+      "description": "iPhone com chip A16 Bionic, câmera de 48MP",
+      "image": "https://images.unsplash.com/photo-1663499482523-1c0c1bae4ce1?w=400",
+      "stock": 8,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "name": "Notebook Dell Inspiron",
+      "price": 3499.99,
+      "category": "notebooks",
+      "description": "Notebook com Intel Core i5, 8GB RAM, SSD 256GB",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400",
+      "stock": 15,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "MacBook Air M2",
+      "price": 7999.99,
+      "category": "notebooks",
+      "description": "MacBook com chip M2, 8GB RAM, SSD 256GB",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "stock": 5,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "name": "Fone Bluetooth JBL",
+      "price": 299.99,
+      "category": "acessorios",
+      "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400",
+      "stock": 30,
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "name": "Smartwatch Samsung",
+      "price": 899.99,
+      "category": "wearables",
+      "description": "Smartwatch com monitor cardíaco, GPS, bateria de longa duração",
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+      "stock": 12,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Tablet iPad Air",
+      "price": 3999.99,
+      "category": "tablets",
+      "description": "iPad Air com chip M1, tela Liquid Retina",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "stock": 7,
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "name": "Câmera Canon T7",
+      "price": 2499.99,
+      "category": "cameras",
+      "description": "Câmera DSLR com lente 18-55mm, 24.1MP",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400",
+      "stock": 6,
+      "rating": 4.6
+    }
+  ]
+}
