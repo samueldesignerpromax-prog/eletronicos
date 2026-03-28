@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">⚡ TechStore</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="cart.html">Carrinho</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="cart.html">🛒 <span id="cartCount">0</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Bem-vindo à TechStore</h1>
+            <p>Os melhores eletrônicos com os melhores preços!</p>
+            <a href="products.html" class="btn-primary">Ver Produtos</a>
+        </div>
+    </header>
+
+    <section class="featured">
+        <div class="container">
+            <h2>Produtos em Destaque</h2>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Produtos serão carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h2>Categorias</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="smartphones">
+                    <span>📱</span>
+                    <h3>Smartphones</h3>
+                </div>
+                <div class="category-card" data-category="notebooks">
+                    <span>💻</span>
+                    <h3>Notebooks</h3>
+                </div>
+                <div class="category-card" data-category="acessorios">
+                    <span>🎧</span>
+                    <h3>Acessórios</h3>
+                </div>
+                <div class="category-card" data-category="wearables">
+                    <span>⌚</span>
+                    <h3>Wearables</h3>
+                </div>
+                <div class="category-card" data-category="tablets">
+                    <span>📱</span>
+                    <h3>Tablets</h3>
+                </div>
+                <div class="category-card" data-category="cameras">
+                    <span>📷</span>
+                    <h3>Câmeras</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Sua loja de eletrônicos confiável desde 2024</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: contato@techstore.com</p>
+                    <p>Telefone: (11) 99999-9999</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
